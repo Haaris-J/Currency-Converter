@@ -1,6 +1,11 @@
+/*
+    Author: Muhammad Haaris Jahir Hussain
+    C0883931
+*/
 body {
     border-style: solid;
 }
+
 #banner {
     padding: 2%;
     background-color: #4267B2;
@@ -24,4 +29,3 @@ select {
     padding-bottom: 1%;
     text-align: center;
 }
-
