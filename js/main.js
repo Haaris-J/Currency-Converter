@@ -8,9 +8,9 @@ var drop2 = document.getElementById('drop2');
 var exchange = function (value, cur, field) {
     var convertedValue = value;
     if (cur === 'USD') {
-        convertedValue = convertedValue * 0.756006;
-    } else {
         convertedValue = convertedValue * 1.32;
+    } else {
+        convertedValue = convertedValue * 0.756006;
     }
     if (field === 1) {
         document.getElementById('value2').value = convertedValue;
